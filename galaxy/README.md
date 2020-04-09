@@ -40,11 +40,11 @@
 ## Miscellaneous
 
 * SARS-CoV-2 was added as pre-configured reference genome
-	* FASTA
-	* TwoBit
-	* Star
-	* Bowtie2
-	* BWA-mem
+	* FASTA file
+	* TwoBit index
+	* Star index
+	* Bowtie2 index
+	* BWA-mem index
 
 (Let us know if you need more pre-computed indices.)
 
