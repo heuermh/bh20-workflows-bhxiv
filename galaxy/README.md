@@ -1,4 +1,6 @@
-# Galaxy workflow
+# Galaxy workbench
+
+This page is summarizing the work done during the virtual Biohackathon to extend https://covid19.galaxyproject.org.
 
 ## used tools
 
