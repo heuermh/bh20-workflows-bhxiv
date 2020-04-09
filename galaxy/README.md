@@ -20,6 +20,7 @@ A bunch of other tools interesting for the assembly work, like Quast, Trinity, S
 [![Galaxy workflow](workflow.png)](https://usegalaxy.eu/u/bgruening/w/sars-cov-2-vbiohackathon-workflow)
 
 * revisioned version of the workflow is available here at https://usegalaxy.eu/u/bgruening/w/sars-cov-2-vbiohackathon-workflow
+* the data can be super noisy and erroneous, so the workflows filters datasets that yield to empty files or crashed tools
 * workflow is parallelizable and was tested on 100+ inputs
 * workflows (rather the tools inside a workflow) can run in Conda, Docker or Singularity
 * one environment per step
