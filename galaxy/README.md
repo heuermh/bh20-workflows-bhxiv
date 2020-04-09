@@ -81,4 +81,5 @@ This means the European Galaxy server can now submit your jobs and workflows to 
 * [Wolfgang Maier](https://github.com/wm75)
 * [Björn Grüning](https://github.com/bgruening)
 * [Gianmauro Cuccuru](https://github.com/gmauro)
+* [Frederik Coppens](https://github.com/frederikcoppens)
 
