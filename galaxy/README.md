@@ -12,6 +12,9 @@ This page is summarizing the work done during the virtual Biohackathon to extend
 |seqwish | [x](https://anaconda.org/bioconda/seqwish) | [x](https://quay.io/repository/biocontainers/seqwish) | [x](https://quay.io/repository/biocontainers/seqwish) |[x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/seqwish/) |
 |vg | [x](https://anaconda.org/bioconda/vg) | [x](https://quay.io/repository/biocontainers/vg) | [x](https://quay.io/repository/biocontainers/vg) |[x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/vg_deconstruct/) |
 
+A bunch of other tools interesting for the assembly work, like Quast, Trinity, Spades, Unicycler are also available.
+
+
 ## Workflow
 
 [![Galaxy workflow](workflow.png)](https://usegalaxy.eu/u/bgruening/w/sars-cov-2-vbiohackathon-workflow)
