@@ -16,17 +16,21 @@ authors:
   - name: Sarai Varona
     orcid: 0000-0002-2245-210X
     affiliation: 4
-  
+  - name: Pjotr Prins
+    orcid: 0000-0002-8021-9162
+    affiliation: 5
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
     index: 1
   - name: Curii Corporation, Somerville, MA, USA.
     index: 2
-  - name: Institute of Health Carlos III, Majadahonda, Spain. 
+  - name: Institute of Health Carlos III, Majadahonda, Spain.
     index: 3
-  - name : Institute of Health Carlos III, Majadahonda, Spain. 
+  - name : Institute of Health Carlos III, Majadahonda, Spain.
     index: 4
-    
+  - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
+    index: 5
+
 date: 11 April 2020
 bibliography: paper.bib
 ---
