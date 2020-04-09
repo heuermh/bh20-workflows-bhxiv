@@ -42,7 +42,7 @@ Let us know if you need more pre-computed indices.
 * We extended the European Network for distributed computing by adding  CSC (Finland).
 This means the European Galaxy server can now submit your jobs and workflows to Finland to be processed.
 
-![Pulsar Network](https://pulsar-network.readthedocs.io/en/latest/_images/nodes.png)
+<img src="https://pulsar-network.readthedocs.io/en/latest/_images/nodes.png" width="300" />
 
 Let us know if you have compute capacity and want to join the network.
 
