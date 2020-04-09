@@ -11,11 +11,11 @@
 
 ## Workflow
 
-![Galaxy workflow](workflow.png)
+[![Galaxy workflow](workflow.png)](https://usegalaxy.eu/u/bgruening/w/sars-cov-2-vbiohackathon-workflow)
 
 * revisioned version of the workflow is available here at https://usegalaxy.eu/u/bgruening/w/sars-cov-2-vbiohackathon-workflow
 * workflow is parallelizable and was tested on 100+ inputs
-* start the workflow from CLI with [planemo](https://planemo.readthedocs.io)
+* start the workflow from https://usegalaxy.eu or via CLI ([planemo](https://planemo.readthedocs.io))
 
 ## Data upload and updates (daily)
 
