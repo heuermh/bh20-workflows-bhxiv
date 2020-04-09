@@ -17,6 +17,10 @@
 * workflow is parallelizable and was tested on 100+ inputs
 * start the workflow from https://usegalaxy.eu or via CLI ([planemo](https://planemo.readthedocs.io))
 
+## Data
+
+* [Galaxy history](https://usegalaxy.eu/u/bgruening/h/45-sra-sars-cov-2-datasets-to-play-with) with 45 SRA accession number.
+
 ## Data upload and updates (daily)
 
 * we are using the data from the https://covid19.galaxyproject.org
@@ -33,11 +37,20 @@
 	* Bowtie2
 	* BWA-mem
 
-(let us know if you need more pre-computed indices)
+Let us know if you need more pre-computed indices.
+
+* We extended the European Network for distributed computing by adding  CSC (Finland).
+This means the European Galaxy server can now submit your jobs and workflows to Finland to be processed.
+
+![Pulsar Network](https://pulsar-network.readthedocs.io/en/latest/_images/nodes.png)
+
+Let us know if you have compute capacity and want to join the network.
+
 
 ## Further readings
 * [Assembly training](https://training.galaxyproject.org/training-material/topics/assembly/)
 * [Variant analysis](https://training.galaxyproject.org/training-material/topics/variant-analysis/)
+* [Pulsar Network](https://pulsar-network.readthedocs.io)
 
 ## Future work
 
@@ -46,9 +59,10 @@
 
 ## Credits
 
-* @mvdbeek
-* @nsoranzo
-* @nekrut
-* @wm75
-* @bgruening
+* [Marius van den Beek](https://github.com/mvdbeek)
+* [Nicola Soranzo](https://github.com/nsoranzo)
+* [Anton Nekrutenko](https://github.com/nekrut)
+* [Wolfgang Maier](https://github.com/wm75)
+* [Björn Grüning](https://github.com/bgruening)
+* [Gianmauro Cuccuru](https://github.com/gmauro)
 
