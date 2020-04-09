@@ -4,6 +4,7 @@
 
 | Name | Conda | Docker | rkt | Singularity | Galaxy |
 |-------|:----:|:-----:|:-------:|:------:|:----:|
+|sra-tools | [x](https://anaconda.org/bioconda/sra-tools) | [x](https://quay.io/repository/biocontainers/sra-tools) | [x](https://quay.io/repository/biocontainers/sra-tools) | [x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/sra-tools/) |
 |minia | [x](https://anaconda.org/bioconda/minia) | [x](https://quay.io/repository/biocontainers/minia) | [x](https://quay.io/repository/biocontainers/minia) | [x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/minia/) |
 |minimap2 | [x](https://anaconda.org/bioconda/minimap) | [x](https://quay.io/repository/biocontainers/minimap2) | [x](https://quay.io/repository/biocontainers/minimap2) |[x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/minimap2/) |
 |seqwish | [x](https://anaconda.org/bioconda/seqwish) | [x](https://quay.io/repository/biocontainers/seqwish) | [x](https://quay.io/repository/biocontainers/seqwish) |[x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/seqwish/) |
@@ -15,18 +16,26 @@
 
 * revisioned version of the workflow is available here at https://usegalaxy.eu/u/bgruening/w/sars-cov-2-vbiohackathon-workflow
 * workflow is parallelizable and was tested on 100+ inputs
+* workflows (rather the tools inside a workflow) can run in Conda, Docker or Singularity
+* one environment per step
 * start the workflow from https://usegalaxy.eu or via CLI ([planemo](https://planemo.readthedocs.io))
 
 ## Data
 
-* [Galaxy history](https://usegalaxy.eu/u/bgruening/h/45-sra-sars-cov-2-datasets-to-play-with) with 45 SRA accession number.
+* [Galaxy history](https://usegalaxy.eu/u/bgruening/h/45-sra-sars-cov-2-datasets-to-play-with) with 45 SRA accessions to play with.
 
-## Data upload and updates (daily)
+
+## Data upload and updates - :fire: updated daily
+
+* native ENA, UCSC ... integration
+* data uploads tools, like sra-tools
+* automatised, scriptable data uploads
 
 * we are using the data from the https://covid19.galaxyproject.org
-* these are daily update and new Identifiers are added (SRA, GB ...) - public data only
+* these are **daily update** and new identifiers are added (SRA, GB ...) - public data only
 * a bot is doing the work (example: https://github.com/galaxyproject/SARS-CoV-2/pull/108) (credits to @mvdbeek )
-* These files (with accessing numbers) are than taken by Galaxy and feed into the workflow
+* these files (with accessing numbers) are than taken by Galaxy and feed into the workflow
+
 
 ## Miscellaneous
 
@@ -37,14 +46,14 @@
 	* Bowtie2
 	* BWA-mem
 
-Let us know if you need more pre-computed indices.
+(Let us know if you need more pre-computed indices.)
 
 * We extended the European Network for distributed computing by adding  CSC (Finland).
 This means the European Galaxy server can now submit your jobs and workflows to Finland to be processed.
 
 ![Pulsar Network](https://pulsar-network.readthedocs.io/en/latest/_images/nodes.png)
 
-Let us know if you have compute capacity and want to join the network.
+(Let us know if you have compute capacity and want to join the network.)
 
 
 ## Further readings
@@ -56,6 +65,7 @@ Let us know if you have compute capacity and want to join the network.
 
 * Consider writing a proper tutorial and adding it to https://covid19.galaxyproject.org
 * run it daily as our other workflows
+* fill https://virology.usegalaxy.eu with more content
 
 ## Credits
 
