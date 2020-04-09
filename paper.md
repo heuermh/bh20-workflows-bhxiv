@@ -19,6 +19,10 @@ authors:
   - name: Pjotr Prins
     orcid: 0000-0002-8021-9162
     affiliation: 5
+  - name: Jose Espinosa-Carrasco
+    orcid: 0000-0002-1541-042X
+    affiliation: 6
+
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
     index: 1
@@ -30,6 +34,8 @@ affiliations:
     index: 4
   - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
     index: 5
+  - name : Center for Genomic Regulation, Barcelona, Spain. 
+    index: 6    
 
 date: 11 April 2020
 bibliography: paper.bib
