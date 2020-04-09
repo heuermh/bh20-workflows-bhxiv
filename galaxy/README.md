@@ -6,7 +6,7 @@ This page is summarizing the work done during the virtual Biohackathon to extend
 
 | Name | Conda | Docker | rkt | Singularity | Galaxy |
 |-------|:----:|:-----:|:-------:|:------:|:----:|
-|sra-tools | [x](https://anaconda.org/bioconda/sra-tools) | [x](https://quay.io/repository/biocontainers/sra-tools) | [x](https://quay.io/repository/biocontainers/sra-tools) | [x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/sra-tools/) |
+|sra-tools | [x](https://anaconda.org/bioconda/sra-tools) | [x](https://quay.io/repository/biocontainers/sra-tools) | [x](https://quay.io/repository/biocontainers/sra-tools) | [x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/) |
 |minia | [x](https://anaconda.org/bioconda/minia) | [x](https://quay.io/repository/biocontainers/minia) | [x](https://quay.io/repository/biocontainers/minia) | [x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/minia/) |
 |minimap2 | [x](https://anaconda.org/bioconda/minimap) | [x](https://quay.io/repository/biocontainers/minimap2) | [x](https://quay.io/repository/biocontainers/minimap2) |[x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/minimap2/) |
 |seqwish | [x](https://anaconda.org/bioconda/seqwish) | [x](https://quay.io/repository/biocontainers/seqwish) | [x](https://quay.io/repository/biocontainers/seqwish) |[x](https://depot.galaxyproject.org/singularity/) | [x](https://toolshed.g2.bx.psu.edu/view/iuc/seqwish/) |
