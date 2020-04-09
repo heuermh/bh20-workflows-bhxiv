@@ -7,9 +7,14 @@ authors:
   - name: Michael Heuer
     orcid: 0000-0002-9052-6000
     affiliation: 1
+  - name: Peter Amstutz
+    orcid: 0000-0003-3566-7705
+    affiliation: 2
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
     index: 1
+  - name: Curii Corporation, Somerville, MA, USA.
+    index: 2
 date: 11 April 2020
 bibliography: paper.bib
 ---
