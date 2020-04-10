@@ -71,21 +71,30 @@ Real sequenced [SARS-CoV-2 dataset](https://usegalaxy.eu/u/bgruening/h/45-sra-sa
 
 Four real sequenced illumina RNASEQ reads were involved into the study. List and description of the dataset are as follows.
 
-- SRR10903401 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
-- SRR10903402 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
-- SRR11092057 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
-- SRR11092064 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
+- [SRR10903401](https://www.ncbi.nlm.nih.gov/sra/SRR10903401) - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
+
+- [SRR10903402](https://www.ncbi.nlm.nih.gov/sra/SRR10903402/) - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
+
+- [SRR11092057](https://www.ncbi.nlm.nih.gov/sra/SRR11092057) - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
+
+- [SRR11092064](https://www.ncbi.nlm.nih.gov/sra/SRR11092064) - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
 
 ### Used tools
 
 ### Future work
 
 - Generation of CWL tool for each bioinformatics tools used into the workflow.
-- Making CWL tool for each SOP
+
+- Making CWL tool for each SOP.
+
 - Generation of WDL script for each SOP.
+
 - Fomation of workflow for SPARK enabled tools. Currently GATK4 tools are enabled for SPARK MapReduce framework.
+
 - Deployment of workflows onto HPC cluster and cloud infrastructure.
+
 - Developemnt of GALAXY tools and formation of GALAXY workflows for bioinformtics anlysis more focused onto Viorology i.e virus genomes.
+
 - Achieve and enhance the scalability of the workflows.
 
 ### Team
