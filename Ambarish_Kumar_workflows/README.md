@@ -55,10 +55,10 @@ Real sequenced [SARS-CoV-2 dataset](https://usegalaxy.eu/u/bgruening/h/45-sra-sa
 
 Four real sequenced illumina RNASEQ reads were involved into the study. List and description of the dataset are as follows.
 
--
--
--
--
+- SRR10903401 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
+- SRR10903402 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
+- SRR11092057 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
+- SRR11092064 - paired-end SARS-CoV2 illumina RNASEQ reads. Host is human and geolocation is Wuhan city, China.
 
 ### Used tools
 
