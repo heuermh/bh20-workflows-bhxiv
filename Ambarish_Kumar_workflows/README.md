@@ -53,6 +53,8 @@ SAMTools workflow
 
 Conversion of GALAXY workflows to CWL tools is in progress right now.
 
+[Automated conversion of GALAXY workflow to CWL tool](https://github.com/workflowhub-eu/galaxy2cwl)
+
 ### Used data sets
 
 Test dataset
