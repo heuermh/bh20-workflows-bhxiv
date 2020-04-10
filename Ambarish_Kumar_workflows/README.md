@@ -1,10 +1,14 @@
 # Workflows : SOPs + WDL + CWL + GALAXY
+
 ### Standard Operating Protocols - GATK4, VARSCAN and SAMTools.
-Added SOPs are for genomic variant discovery using GATK4, VARSCAN and SAMTools.
-https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_SOP
+
+Added [SOPs](https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_SOP) are for genomic variant discovery using GATK4, VARSCAN and SAMTools.
+
 #### Conversion of SOPs to CWL
+
 SOP for genomic variant discovery using GATK4 is successfully converted to CWL.
-https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_SOP/Ambarish_Kumar_SOP-GATK-SAR-CoV-2.cwl
+
+[GATK42CWL](https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_SOP/Ambarish_Kumar_SOP-GATK-SAR-CoV-2.cwl)
 
 ###### GATK4 workflow run as CWL tool
 [CWL view of GATK4](https://view.commonwl.org/workflows/github.com/mr-c/2020-covid-19-bh-viz/blob/master/Ambarish_Kumar_SOP/Ambarish_Kumar_SOP-GATK-SAR-CoV-2.cwl)
@@ -13,13 +17,22 @@ https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kum
 
 #### Conversion of SOPs to WDL
 SOP for genomic variant discovery using GATK4 is successfully converted to WDL.
-https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_SOP/GATK4.wdl
+
+[GATK42WDL](https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_SOP/GATK4.wdl)
 
 ###### Execution of GATK4 WDL script
 
+- WDL script validation
+
+- WDL script input generation
+
+- WDL script execution 
+
 
 ### GALAXY workflows for assembly and downstream analysis
+
 #### Assembly and downstream analysis
+
 There are two workflows for assembly and downstream analysis - denovo and reference based. Apart, three workflows are for genomic variant discoveries - GATK, VARSCAN and SAMTools.
 [GALAXY workflows](https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_GALAXY-workflow).
 
@@ -37,6 +50,7 @@ SAMTools workflow
 ![SAMTools workflow](https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_GALAXY-workflow/samtools.png)
 
 #### Conversion of GALAXY workflow to CWL tool
+
 Conversion of GALAXY workflows to CWL tools is in progress right now.
 
 ### Used data sets
@@ -72,7 +86,26 @@ Four real sequenced illumina RNASEQ reads were involved into the study. List and
 - Developemnt of GALAXY tools and formation of GALAXY workflows for bioinformtics anlysis more focused onto Viorology i.e virus genomes.
 - Achieve and enhance the scalability of the workflows.
 
+### Team
+
+[COVID-19 team CWL team](https://github.com/orgs/common-workflow-lab/teams/covid-19)
+
+[COVID-19 CWL lab](https://github.com/common-workflow-lab)
+
+[COVID-19 biohackathon](https://github.com/common-workflow-lab/2020-covid-19-bh)
+
+[COVId-19 galaxy](Ambarish Kumar + Bjoern Gruening)
+
+
 ### Credits
 
+-[Michael R. Crusoe](https://github.com/mr-c)
+-[francois moreews](https://github.com/fjrmoreews)
+-[Ambarish Kumar](https://github.com/ambarishK) [ORCID id](https://orcid.org/0000-0002-4923-046X )
+-[Ignacio Eguinoa](https://github.com/ieguinoa)
+-[Tazro Ohta](https://github.com/inutano)
+-[Bjoern Gruening ](https://github.com/bgruening)
+-[Michael Heuer](https://github.com/heuermh)
+-[Peter Amstutz](https://github.com/tetron)
 
- 
+
