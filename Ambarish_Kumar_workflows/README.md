@@ -27,7 +27,15 @@ Conversion of GALAXY workflows to CWL tools is in progress right now.
 
 Test dataset
 
-SARS-CoV-2 dataset
+Dataset used for the test run.
+
+Simulated illumina RNASEQ reads - [ebola test dataset](https://github.com/ambarishK/simulatedEbolaDataset)
+
+SRA submission -
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3407828.svg)](https://doi.org/10.5281/zenodo.3407828)<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-4923-046X" href="https://orcid.org/0000-0002-4923-046X" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-4923-046X</a></div>
+
+[SARS-CoV-2 dataset](https://usegalaxy.eu/u/bgruening/h/45-sra-sars-cov-2-datasets-to-play-with)
 
 ### Used tools
 
