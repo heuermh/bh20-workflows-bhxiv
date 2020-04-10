@@ -100,12 +100,19 @@ Four real sequenced illumina RNASEQ reads were involved into the study. List and
 ### Credits
 
 -[Michael R. Crusoe](https://github.com/mr-c)
+
 -[francois moreews](https://github.com/fjrmoreews)
+
 -[Ambarish Kumar](https://github.com/ambarishK) [ORCID id](https://orcid.org/0000-0002-4923-046X )
+
 -[Ignacio Eguinoa](https://github.com/ieguinoa)
+
 -[Tazro Ohta](https://github.com/inutano)
+
 -[Bjoern Gruening ](https://github.com/bgruening)
+
 -[Michael Heuer](https://github.com/heuermh)
+
 -[Peter Amstutz](https://github.com/tetron)
 
 
