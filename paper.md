@@ -22,7 +22,10 @@ authors:
   - name: Jose Espinosa-Carrasco
     orcid: 0000-0002-1541-042X
     affiliation: 6
-
+  - name: François Moreews
+    orcid: 0000-0002-4168-4459
+    affiliation: 7
+    
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
     index: 1
@@ -35,7 +38,10 @@ affiliations:
   - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
     index: 5
   - name : Center for Genomic Regulation, Barcelona, Spain. 
-    index: 6    
+    index: 6   
+  - name: INRAE, French National Institute for Agriculture, Food and Environment, Rennes, France
+    index: 7
+  
 
 date: 11 April 2020
 bibliography: paper.bib
