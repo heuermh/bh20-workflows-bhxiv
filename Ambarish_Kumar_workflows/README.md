@@ -21,7 +21,20 @@ https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kum
 ### GALAXY workflows for assembly and downstream analysis
 #### Assembly and downstream analysis
 There are two workflows for assembly and downstream analysis - denovo and reference based. Apart, three workflows are for genomic variant discoveries - GATK, VARSCAN and SAMTools.
-https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_GALAXY-workflow
+[GALAXY workflows](https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_GALAXY-workflow).
+
+workflow editor
+![workflow editor](https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_GALAXY-workflow/workflowEditor.png
+)
+
+GATK workflow
+![GATK workflow](https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_GALAXY-workflow/haplotypecaller.png)
+
+VARSCAN workflow
+![VARSCAN workflow](https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_GALAXY-workflow/varscan.png)
+
+SAMTools workflow
+![SAMTools workflow](https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_GALAXY-workflow/samtools.png)
 
 #### Conversion of GALAXY workflow to CWL tool
 Conversion of GALAXY workflows to CWL tools is in progress right now.
