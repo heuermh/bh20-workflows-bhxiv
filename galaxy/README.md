@@ -74,7 +74,7 @@ This means the European Galaxy server can now submit your jobs and workflows to 
 * fill https://virology.usegalaxy.eu with more content
 
 ## Credits
-* [AMBARISH KKUMAR](https://github.com/ambarishK) https://orcid.org/0000-0002-4923-046X 
+* [AMBARISH KKUMAR](https://github.com/ambarishK)
 * [Marius van den Beek](https://github.com/mvdbeek)
 * [Nicola Soranzo](https://github.com/nsoranzo)
 * [Anton Nekrutenko](https://github.com/nekrut)
