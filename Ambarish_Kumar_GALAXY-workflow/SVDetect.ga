@@ -1,0 +1,163 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "SVDetect workflow.", 
+    "format-version": "0.1", 
+    "name": "SVDetect", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Import data", 
+            "outputs": [
+                {
+                    "name": "outbamfile", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "outlenfile", 
+                    "type": "len"
+                }, 
+                {
+                    "name": "outsvfile", 
+                    "type": "sv"
+                }
+            ], 
+            "position": {
+                "left": 171.99998474121094, 
+                "top": 168
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bzeitouni/svdetect/svdetect_import/1.0.0", 
+            "tool_state": "{\"file_name\": \"\\\"file1\\\"\", \"__rerun_remap_job_id__\": null, \"type\": \"{\\\"file_type\\\": \\\"bam\\\", \\\"__current_case__\\\": 0}\", \"file_path\": \"\\\"\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "296478bf-9b67-47e8-9685-ced05bad2857"
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Import data", 
+            "outputs": [
+                {
+                    "name": "outbamfile", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "outlenfile", 
+                    "type": "len"
+                }, 
+                {
+                    "name": "outsvfile", 
+                    "type": "sv"
+                }
+            ], 
+            "position": {
+                "left": 266.99998474121094, 
+                "top": 430.99998474121094
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bzeitouni/svdetect/svdetect_import/1.0.0", 
+            "tool_state": "{\"file_name\": \"\\\"file1\\\"\", \"__rerun_remap_job_id__\": null, \"type\": \"{\\\"file_type\\\": \\\"len\\\", \\\"__current_case__\\\": 1}\", \"file_path\": \"\\\"\\\"\", \"__page__\": 0}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "481cf408-cef1-4ccd-bd08-9394bac04050"
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {
+                "inputBam": {
+                    "id": 0, 
+                    "output_name": "outbamfile"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "BAM preprocessing", 
+            "outputs": [
+                {
+                    "name": "abBAM", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "log", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "normBAM", 
+                    "type": "bam"
+                }
+            ], 
+            "position": {
+                "left": 344.49998474121094, 
+                "top": 224
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bzeitouni/svdetect/svdetect_preprocessing/1.0.0", 
+            "tool_state": "{\"__page__\": 0, \"isizeMin\": \"\\\"0\\\"\", \"newBam\": \"{\\\"__current_case__\\\": 1, \\\"pairNormal\\\": \\\"no\\\"}\", \"isizeMax\": \"\\\"10000\\\"\", \"inputBam\": \"null\", \"__rerun_remap_job_id__\": null, \"nbrePair\": \"\\\"1000000\\\"\", \"readType\": \"\\\"1\\\"\", \"sample_name\": \"\\\"sample\\\"\", \"pairType\": \"\\\"1\\\"\", \"foldPair\": \"\\\"3.0\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "01f2c8d8-123b-4eac-9c5e-6101e9264dbf"
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {
+                "cmap_file": {
+                    "id": 1, 
+                    "output_name": "outlenfile"
+                }, 
+                "mates_file": {
+                    "id": 2, 
+                    "output_name": "abBAM"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Detect clusters of anomalously mapped pairs", 
+            "outputs": [
+                {
+                    "name": "sv_file", 
+                    "type": "sv"
+                }, 
+                {
+                    "name": "circos_file", 
+                    "type": "segdup"
+                }, 
+                {
+                    "name": "bed_file", 
+                    "type": "bed"
+                }, 
+                {
+                    "name": "log_file", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 472.49998474121094, 
+                "top": 375.99998474121094
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bzeitouni/svdetect/svdetect_run_parallel/1.0.0", 
+            "tool_state": "{\"__page__\": 0, \"sv_type\": \"\\\"all\\\"\", \"getLinks\": \"{\\\"window_size\\\": \\\"3000\\\", \\\"step_length\\\": \\\"250\\\", \\\"splitmate\\\": \\\"True\\\", \\\"__current_case__\\\": 1, \\\"linking\\\": \\\"linking\\\"}\", \"mates_file\": \"null\", \"__rerun_remap_job_id__\": null, \"getFilteredLinks\": \"{\\\"nb_pairs_threshold\\\": \\\"5\\\", \\\"filtering\\\": \\\"filtering\\\", \\\"chromosomes\\\": \\\"\\\", \\\"file_conversion\\\": {\\\"file_conversion_select\\\": \\\"do_not_convert\\\", \\\"__current_case__\\\": 0}, \\\"splitlink\\\": \\\"False\\\", \\\"filter1\\\": {\\\"strand_filtering\\\": \\\"strand\\\", \\\"final_score_threshold\\\": \\\"1.0\\\", \\\"__current_case__\\\": 1, \\\"filter2\\\": {\\\"nb_pairs_order_threshold\\\": \\\"2\\\", \\\"order_filtering\\\": \\\"order\\\", \\\"__current_case__\\\": 1, \\\"filter3\\\": {\\\"indel_sigma_threshold\\\": \\\"3.0\\\", \\\"dup_sigma_threshold\\\": \\\"3.0\\\", \\\"singleton_sigma_threshold\\\": \\\"4.0\\\", \\\"__current_case__\\\": 1, \\\"insert_size_filtering\\\": \\\"insert\\\"}, \\\"mu_length\\\": \\\"3000\\\", \\\"sigma_length\\\": \\\"250\\\"}}, \\\"__current_case__\\\": 1, \\\"links2SV\\\": \\\"True\\\"}\", \"read2_length\": \"\\\"50\\\"\", \"read1_length\": \"\\\"50\\\"\", \"sample_name\": \"\\\"sample\\\"\", \"mates_orientation\": \"\\\"FR\\\"\", \"cmap_file\": \"null\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "2edd1fca-fc2d-453e-aead-c95a2e250d0a"
+        }
+    }, 
+    "uuid": "bb58fd42-403a-48ad-80d2-59d81f0c8f0b"
+}

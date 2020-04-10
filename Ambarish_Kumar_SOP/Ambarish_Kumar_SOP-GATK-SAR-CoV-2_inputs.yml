@@ -1,0 +1,14 @@
+rnaseq_left_reads:
+  class: File
+  path: testdata16march/ebola_mut_reads1.fq
+  format: edam:format_1930
+
+rnaseq_right_reads:
+  class: File
+  path: testdata16march/ebola_mut_reads2.fq
+  format: edam:format_1930
+ 
+sars_cov_2_reference_genome:
+  class: File
+  path: testdata16march/ebola_ref.fasta
+  format: edam:format_1929

@@ -1,0 +1,133 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "VARSCAN workflow.", 
+    "format-version": "0.1", 
+    "name": "VARSCAN", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 161, 
+                "top": 187
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Input Dataset\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "72a1326a-cd57-4567-8c41-cc66411642be"
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 163.83331298828125, 
+                "top": 263.8333282470703
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Input Dataset\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "d8444634-af6c-44c5-9b55-8c3284da2823"
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {
+                "reference_source|input_bams_0|input_bam": {
+                    "id": 0, 
+                    "output_name": "output"
+                }, 
+                "reference_source|ref_file": {
+                    "id": 1, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "MPileup", 
+            "outputs": [
+                {
+                    "name": "output_mpileup", 
+                    "type": "pileup"
+                }, 
+                {
+                    "name": "output_log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 370, 
+                "top": 187
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/samtools_mpileup/samtools_mpileup/2.0", 
+            "tool_state": "{\"__page__\": 0, \"advanced_options\": \"{\\\"advanced_options_selector\\\": \\\"basic\\\", \\\"__current_case__\\\": 1}\", \"__rerun_remap_job_id__\": null, \"genotype_likelihood_computation_type\": \"{\\\"output_mapping_quality\\\": \\\"False\\\", \\\"genotype_likelihood_computation_type_selector\\\": \\\"do_not_perform_genotype_likelihood_computation\\\", \\\"__current_case__\\\": 1, \\\"base_position_on_reads\\\": \\\"False\\\"}\", \"reference_source\": \"{\\\"ref_file\\\": null, \\\"reference_source_selector\\\": \\\"history\\\", \\\"input_bams\\\": [{\\\"__index__\\\": 0, \\\"input_bam\\\": null}], \\\"__current_case__\\\": 1}\"}", 
+            "tool_version": "2.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "26d34295-7783-40e1-950f-a485ff569f5b"
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {
+                "in_file": {
+                    "id": 2, 
+                    "output_name": "output_mpileup"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "VarScan mpileup", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "vcf"
+                }, 
+                {
+                    "name": "log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 563.8333129882812, 
+                "top": 364.83331298828125
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/fcaramia/varscan/varscan_mpileup/2.3.5", 
+            "tool_state": "{\"strand_filter\": \"\\\"1\\\"\", \"min_avg_qual\": \"\\\"15\\\"\", \"min_coverage\": \"\\\"8\\\"\", \"__page__\": 0, \"__rerun_remap_job_id__\": null, \"min_freq_for_hom\": \"\\\"0.75\\\"\", \"min_var_freq\": \"\\\"0.01\\\"\", \"exe_command\": \"\\\"mpileup2snp\\\"\", \"min_reads2\": \"\\\"2\\\"\", \"p_value\": \"\\\"0.99\\\"\", \"variants\": \"\\\"1\\\"\", \"vcf_sample_list\": \"null\", \"in_file\": \"null\"}", 
+            "tool_version": "2.3.5", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "5ff6cf71-5d74-42ad-bcdc-7c75891dc10e"
+        }
+    }, 
+    "uuid": "5b7bf29e-1272-4211-b345-37695989c6fa"
+}

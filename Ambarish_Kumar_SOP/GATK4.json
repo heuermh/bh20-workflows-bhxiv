@@ -1,0 +1,18 @@
+
+{
+
+  "variantcall.name": "SARS-CoV-2",
+
+  "variantcall.refDict": "/home/../../SARS-CoV-2.dict",
+
+  "variantcall.refIndex": "/home/../../SARS-CoV-2.fasta.fai",
+
+  "variantcall.Alignment.rightFastq": "/home/../../SARS-CoV-2_reads2.fq",
+
+  "variantcall.referenceGenome": "/home/../../SARS-CoV-2.fasta",
+
+  "variantcall.gatk": "/home/../../gatk",
+
+  "variantcall.Alignment.leftFastq": "/home/../../SARS-CoV-2_reads1.fq"
+
+}

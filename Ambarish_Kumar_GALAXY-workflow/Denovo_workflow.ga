@@ -1,0 +1,792 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "NGSAP workflow 1", 
+    "format-version": "0.1", 
+    "name": "Denovo_workflow", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R1_left"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 191, 
+                "top": 195
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R1_left\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "1c908163-a494-4e00-8463-2f3611220745"
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R1_right"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 285
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R1_right\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "f5d95ab6-b503-45a0-bbb4-c3c2980f4a04"
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R2_left"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 370
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R2_left\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "a296680e-69bd-4e43-87f3-5a19a3dfb00a"
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R4_left"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 709.9999694824219
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R4_left\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "da874053-bcaa-4a91-a4b6-43b722799b5a"
+        }, 
+        "4": {
+            "annotation": "", 
+            "id": 4, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R3_left"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 539.9999694824219
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R3_left\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "eb4256c2-b373-432b-9a27-bf15d2ff5668"
+        }, 
+        "5": {
+            "annotation": "", 
+            "id": 5, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R2_right"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 455
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R2_right\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "1a34e9bf-7e55-473c-813c-d2e028104a0a"
+        }, 
+        "6": {
+            "annotation": "", 
+            "id": 6, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R4_right"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 794.9999694824219
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R4_right\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "168365a1-1fac-446e-85c7-0066e2f5c72b"
+        }, 
+        "7": {
+            "annotation": "", 
+            "id": 7, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "R3_right"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 200, 
+                "top": 624.9999694824219
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"R3_right\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "31d47263-227d-4e7c-8d4f-d1cd22c4229c"
+        }, 
+        "8": {
+            "annotation": "", 
+            "id": 8, 
+            "input_connections": {
+                "input1": {
+                    "id": 0, 
+                    "output_name": "output"
+                }, 
+                "queries_0|input2": {
+                    "id": 2, 
+                    "output_name": "output"
+                }, 
+                "queries_1|input2": {
+                    "id": 4, 
+                    "output_name": "output"
+                }, 
+                "queries_2|input2": {
+                    "id": 3, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Concatenate datasets", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 428.0000305175781, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "cat1", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"input1\": \"null\", \"queries\": \"[{\\\"input2\\\": null, \\\"__index__\\\": 0}, {\\\"input2\\\": null, \\\"__index__\\\": 1}, {\\\"input2\\\": null, \\\"__index__\\\": 2}]\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "d6005191-a0e5-4092-8878-bb3ecbbada98"
+        }, 
+        "9": {
+            "annotation": "", 
+            "id": 9, 
+            "input_connections": {
+                "input1": {
+                    "id": 1, 
+                    "output_name": "output"
+                }, 
+                "queries_0|input2": {
+                    "id": 5, 
+                    "output_name": "output"
+                }, 
+                "queries_1|input2": {
+                    "id": 7, 
+                    "output_name": "output"
+                }, 
+                "queries_2|input2": {
+                    "id": 6, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Concatenate datasets", 
+            "outputs": [
+                {
+                    "name": "out_file1", 
+                    "type": "input"
+                }
+            ], 
+            "position": {
+                "left": 428.0000305175781, 
+                "top": 395
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "cat1", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"input1\": \"null\", \"queries\": \"[{\\\"input2\\\": null, \\\"__index__\\\": 0}, {\\\"input2\\\": null, \\\"__index__\\\": 1}, {\\\"input2\\\": null, \\\"__index__\\\": 2}]\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "506fdc53-2aa1-4a81-be5e-69b12676a6cd"
+        }, 
+        "10": {
+            "annotation": "", 
+            "id": 10, 
+            "input_connections": {
+                "inputs|left_input": {
+                    "id": 8, 
+                    "output_name": "out_file1"
+                }, 
+                "inputs|right_input": {
+                    "id": 9, 
+                    "output_name": "out_file1"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Insilico Read Normalization", 
+            "outputs": [
+                {
+                    "name": "insilico_read_normalization_log", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "left_normalized_read", 
+                    "type": "fastq"
+                }, 
+                {
+                    "name": "right_normalized_read", 
+                    "type": "fastq"
+                }
+            ], 
+            "position": {
+                "left": 667.0000305175781, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/insilico_read_nomalization/0.0.1", 
+            "tool_state": "{\"__page__\": 0, \"JM\": \"\\\"1G\\\"\", \"inputs\": \"{\\\"paired_or_single\\\": \\\"paired\\\", \\\"left_input\\\": null, \\\"right_input\\\": null, \\\"additional_params\\\": {\\\"use_additional\\\": \\\"no\\\", \\\"__current_case__\\\": 0}, \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"maximum_coverage\": \"\\\"25\\\"\"}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "ee67cadd-54b2-4110-8046-3319c448cbbc"
+        }, 
+        "11": {
+            "annotation": "", 
+            "id": 11, 
+            "input_connections": {
+                "inputs|left_input": {
+                    "id": 10, 
+                    "output_name": "left_normalized_read"
+                }, 
+                "inputs|right_input": {
+                    "id": 10, 
+                    "output_name": "right_normalized_read"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Trinity", 
+            "outputs": [
+                {
+                    "name": "trinity_log", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "assembled_transcripts", 
+                    "type": "fasta"
+                }
+            ], 
+            "position": {
+                "left": 980.0000305175781, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/trinityrnaseq/0.0.1", 
+            "tool_state": "{\"__page__\": 0, \"additional_params\": \"{\\\"use_additional\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"inputs\": \"{\\\"paired_or_single\\\": \\\"paired\\\", \\\"library_type\\\": \\\"None\\\", \\\"group_pairs_distance\\\": \\\"500\\\", \\\"left_input\\\": null, \\\"__current_case__\\\": 0, \\\"path_reinforcement_distance\\\": \\\"75\\\", \\\"right_input\\\": null}\", \"__rerun_remap_job_id__\": null, \"JM\": \"\\\"1G\\\"\", \"CPU\": \"\\\"2\\\"\"}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "990fa822-9962-4d2d-99ae-67674fbb8607"
+        }, 
+        "12": {
+            "annotation": "", 
+            "id": 12, 
+            "input_connections": {
+                "reads|left_input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }, 
+                "reads|right_input": {
+                    "id": 1, 
+                    "output_name": "output"
+                }, 
+                "transcripts": {
+                    "id": 11, 
+                    "output_name": "assembled_transcripts"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "align_and_estimate_abundance", 
+            "outputs": [
+                {
+                    "name": "align_and_estimate_abundance_log", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "bowtie_bam", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "rsem_isoforms", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "rsem_genes", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1261.0000305175781, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/id_align_and_estimate_abundance/1.0", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"reads\": \"{\\\"paired_or_single\\\": \\\"paired\\\", \\\"optional\\\": {\\\"use_options\\\": \\\"no\\\", \\\"__current_case__\\\": 0}, \\\"left_input\\\": null, \\\"__current_case__\\\": 0, \\\"seqtype\\\": \\\"fq\\\", \\\"right_input\\\": null}\", \"aln_method\": \"\\\"bowtie\\\"\", \"est_method\": \"\\\"RSEM\\\"\", \"transcripts\": \"null\"}", 
+            "tool_version": "1.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "d8feddcc-b4b8-4037-89a8-f0bb416146fc"
+        }, 
+        "13": {
+            "annotation": "", 
+            "id": 13, 
+            "input_connections": {
+                "fastafile": {
+                    "id": 11, 
+                    "output_name": "assembled_transcripts"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Trinity Stats", 
+            "outputs": [
+                {
+                    "name": "statsfile", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 1261.0000305175781, 
+                "top": 449
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/id_trinity_stats/1.0", 
+            "tool_state": "{\"fastafile\": \"null\", \"__page__\": 0, \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "1.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "ccb6162f-e84b-4aae-bf7d-22dcc8fa16d5"
+        }, 
+        "14": {
+            "annotation": "", 
+            "id": 14, 
+            "input_connections": {
+                "reads|left_input": {
+                    "id": 2, 
+                    "output_name": "output"
+                }, 
+                "reads|right_input": {
+                    "id": 5, 
+                    "output_name": "output"
+                }, 
+                "transcripts": {
+                    "id": 11, 
+                    "output_name": "assembled_transcripts"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "align_and_estimate_abundance", 
+            "outputs": [
+                {
+                    "name": "align_and_estimate_abundance_log", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "bowtie_bam", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "rsem_isoforms", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "rsem_genes", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1261.0000305175781, 
+                "top": 561.9999694824219
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/id_align_and_estimate_abundance/1.0", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"reads\": \"{\\\"paired_or_single\\\": \\\"paired\\\", \\\"optional\\\": {\\\"use_options\\\": \\\"no\\\", \\\"__current_case__\\\": 0}, \\\"left_input\\\": null, \\\"__current_case__\\\": 0, \\\"seqtype\\\": \\\"fq\\\", \\\"right_input\\\": null}\", \"aln_method\": \"\\\"bowtie\\\"\", \"est_method\": \"\\\"RSEM\\\"\", \"transcripts\": \"null\"}", 
+            "tool_version": "1.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "769db165-573c-4359-84ee-e1bb7518a430"
+        }, 
+        "15": {
+            "annotation": "", 
+            "id": 15, 
+            "input_connections": {
+                "transcript": {
+                    "id": 11, 
+                    "output_name": "assembled_transcripts"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "transDecoder", 
+            "outputs": [
+                {
+                    "name": "transdecoder_pep", 
+                    "type": "fasta"
+                }, 
+                {
+                    "name": "transdecoder_cds", 
+                    "type": "fasta"
+                }, 
+                {
+                    "name": "transdecoder_bed", 
+                    "type": "bed"
+                }, 
+                {
+                    "name": "transdecoder_gff3", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "transdecoder_mRNA", 
+                    "type": "fasta"
+                }, 
+                {
+                    "name": "transdecoder_log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 1261.0000305175781, 
+                "top": 810.9999694824219
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/id_transDecoder/1.0", 
+            "tool_state": "{\"pfam\": \"{\\\"options\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"optional\": \"{\\\"parameters\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"transcript\": \"null\", \"__page__\": 0}", 
+            "tool_version": "1.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "c4b3457c-57d2-4287-8c17-360a352f1d78"
+        }, 
+        "16": {
+            "annotation": "", 
+            "id": 16, 
+            "input_connections": {
+                "reads|left_input": {
+                    "id": 4, 
+                    "output_name": "output"
+                }, 
+                "reads|right_input": {
+                    "id": 7, 
+                    "output_name": "output"
+                }, 
+                "transcripts": {
+                    "id": 11, 
+                    "output_name": "assembled_transcripts"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "align_and_estimate_abundance", 
+            "outputs": [
+                {
+                    "name": "align_and_estimate_abundance_log", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "bowtie_bam", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "rsem_isoforms", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "rsem_genes", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1261.0000305175781, 
+                "top": 1059.9999694824219
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/id_align_and_estimate_abundance/1.0", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"reads\": \"{\\\"paired_or_single\\\": \\\"paired\\\", \\\"optional\\\": {\\\"use_options\\\": \\\"no\\\", \\\"__current_case__\\\": 0}, \\\"left_input\\\": null, \\\"__current_case__\\\": 0, \\\"seqtype\\\": \\\"fq\\\", \\\"right_input\\\": null}\", \"aln_method\": \"\\\"bowtie\\\"\", \"est_method\": \"\\\"RSEM\\\"\", \"transcripts\": \"null\"}", 
+            "tool_version": "1.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "77776860-d7ed-45c6-9280-7326e4e8c486"
+        }, 
+        "17": {
+            "annotation": "", 
+            "id": 17, 
+            "input_connections": {
+                "reads|left_input": {
+                    "id": 3, 
+                    "output_name": "output"
+                }, 
+                "reads|right_input": {
+                    "id": 6, 
+                    "output_name": "output"
+                }, 
+                "transcripts": {
+                    "id": 11, 
+                    "output_name": "assembled_transcripts"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "align_and_estimate_abundance", 
+            "outputs": [
+                {
+                    "name": "align_and_estimate_abundance_log", 
+                    "type": "txt"
+                }, 
+                {
+                    "name": "bowtie_bam", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "rsem_isoforms", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "rsem_genes", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1261.0000305175781, 
+                "top": 1308.9999694824219
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/id_align_and_estimate_abundance/1.0", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"reads\": \"{\\\"paired_or_single\\\": \\\"paired\\\", \\\"optional\\\": {\\\"use_options\\\": \\\"no\\\", \\\"__current_case__\\\": 0}, \\\"left_input\\\": null, \\\"__current_case__\\\": 0, \\\"seqtype\\\": \\\"fq\\\", \\\"right_input\\\": null}\", \"aln_method\": \"\\\"bowtie\\\"\", \"est_method\": \"\\\"RSEM\\\"\", \"transcripts\": \"null\"}", 
+            "tool_version": "1.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "f0db45a0-2a1b-422b-912e-b371778b46c6"
+        }, 
+        "18": {
+            "annotation": "", 
+            "id": 18, 
+            "input_connections": {
+                "query": {
+                    "id": 15, 
+                    "output_name": "transdecoder_pep"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "NCBI BLAST+ blastp", 
+            "outputs": [
+                {
+                    "name": "output1", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1589.0000305175781, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/0.1.01", 
+            "tool_state": "{\"evalue_cutoff\": \"\\\"0.001\\\"\", \"__page__\": 0, \"adv_opts\": \"{\\\"adv_opts_selector\\\": \\\"basic\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"blast_type\": \"\\\"blastp\\\"\", \"db_opts\": \"{\\\"db_opts_selector\\\": \\\"db\\\", \\\"subject\\\": \\\"\\\", \\\"histdb\\\": \\\"\\\", \\\"__current_case__\\\": 0, \\\"database\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": null}}\", \"output\": \"{\\\"out_format\\\": \\\"ext\\\", \\\"__current_case__\\\": 1}\", \"query\": \"null\"}", 
+            "tool_version": "0.1.01", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "2e4f1945-4d2a-47e6-932c-f6f5b55c8089"
+        }, 
+        "19": {
+            "annotation": "", 
+            "id": 19, 
+            "input_connections": {
+                "isoform_sample_0|isoform_sample_matrix": {
+                    "id": 12, 
+                    "output_name": "rsem_isoforms"
+                }, 
+                "isoform_sample_2|isoform_sample_matrix": {
+                    "id": 14, 
+                    "output_name": "rsem_isoforms"
+                }, 
+                "isoform_sample_3|isoform_sample_matrix": {
+                    "id": 16, 
+                    "output_name": "rsem_isoforms"
+                }, 
+                "isoform_sample_4|isoform_sample_matrix": {
+                    "id": 17, 
+                    "output_name": "rsem_isoforms"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Differential Expression", 
+            "outputs": [
+                {
+                    "name": "de_output", 
+                    "type": "zip"
+                }, 
+                {
+                    "name": "output_log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 1589.0000305175781, 
+                "top": 313
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/differential_expression/1.0", 
+            "tool_state": "{\"isoform_sample\": \"[{\\\"__index__\\\": 0, \\\"isoform_sample_matrix\\\": null, \\\"sample_name\\\": \\\"Sample1\\\"}, {\\\"__index__\\\": 2, \\\"isoform_sample_matrix\\\": null, \\\"sample_name\\\": \\\"Sample2\\\"}, {\\\"__index__\\\": 3, \\\"isoform_sample_matrix\\\": null, \\\"sample_name\\\": \\\"Sample3\\\"}, {\\\"__index__\\\": 4, \\\"isoform_sample_matrix\\\": null, \\\"sample_name\\\": \\\"Sample4\\\"}]\", \"__page__\": 0, \"est_method\": \"\\\"RSEM\\\"\", \"__rerun_remap_job_id__\": null, \"method\": \"\\\"edgeR\\\"\"}", 
+            "tool_version": "1.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "ad56b1ff-e6d3-492e-b17b-72d68285ae17"
+        }, 
+        "20": {
+            "annotation": "", 
+            "id": 20, 
+            "input_connections": {
+                "blastoutfile": {
+                    "id": 18, 
+                    "output_name": "output1"
+                }, 
+                "trinityassembledfile": {
+                    "id": 15, 
+                    "output_name": "transdecoder_pep"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "BLAST OUTPUT PARSER", 
+            "outputs": [
+                {
+                    "name": "parsed_blastfile_above_cutoff", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "parsed_blastfile_below_cutoff", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "oneline_file", 
+                    "type": "fasta"
+                }, 
+                {
+                    "name": "blastfile_below_cutoff", 
+                    "type": "fasta"
+                }, 
+                {
+                    "name": "blastfile_above_cutoff", 
+                    "type": "fasta"
+                }
+            ], 
+            "position": {
+                "left": 1912.9999084472656, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/mytest/ngsap2/blast_parser_using_awk/0.0.1", 
+            "tool_state": "{\"__page__\": 0, \"blastoutfile\": \"null\", \"evalue\": \"\\\"1e-05\\\"\", \"trinityassembledfile\": \"null\", \"qcovs\": \"\\\"95\\\"\", \"__rerun_remap_job_id__\": null}", 
+            "tool_version": "0.0.1", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "a3e88afe-a154-43b3-8f7c-8baa37e529c0"
+        }
+    }, 
+    "uuid": "7bbee726-311d-420a-92f8-fed0c0d00e1a"
+}

@@ -1,0 +1,160 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "SAMTools workflow", 
+    "format-version": "0.1", 
+    "name": "SAMTools", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 162, 
+                "top": 169
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Input Dataset\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "1eec712c-2fe0-43a8-b033-f027a74c6a48"
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 273.83331298828125, 
+                "top": 341.83331298828125
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Input Dataset\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "98d5e3bf-4715-48a2-9b2b-29b21179c425"
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {
+                "input1": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Sort", 
+            "outputs": [
+                {
+                    "name": "output1", 
+                    "type": "bam"
+                }
+            ], 
+            "position": {
+                "left": 351.5, 
+                "top": 195
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"input1\": \"null\", \"sort_mode\": \"\\\"\\\"\"}", 
+            "tool_version": "2.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "65b01bda-28cf-4ea7-a069-8face6270c69"
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {
+                "reference_source|input_bams_0|input_bam": {
+                    "id": 2, 
+                    "output_name": "output1"
+                }, 
+                "reference_source|ref_file": {
+                    "id": 1, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "MPileup", 
+            "outputs": [
+                {
+                    "name": "output_mpileup", 
+                    "type": "pileup"
+                }, 
+                {
+                    "name": "output_log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 535.5, 
+                "top": 287
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/samtools_mpileup/samtools_mpileup/2.0", 
+            "tool_state": "{\"__page__\": 0, \"advanced_options\": \"{\\\"advanced_options_selector\\\": \\\"basic\\\", \\\"__current_case__\\\": 1}\", \"__rerun_remap_job_id__\": null, \"genotype_likelihood_computation_type\": \"{\\\"__current_case__\\\": 0, \\\"output_format\\\": \\\"--VCF\\\", \\\"perform_indel_calling\\\": {\\\"__current_case__\\\": 0, \\\"perform_indel_calling_selector\\\": \\\"perform_indel_calling_def\\\"}, \\\"compressed\\\": \\\"False\\\", \\\"genotype_likelihood_computation_type_selector\\\": \\\"perform_genotype_likelihood_computation\\\", \\\"output_tags\\\": null}\", \"reference_source\": \"{\\\"ref_file\\\": null, \\\"reference_source_selector\\\": \\\"history\\\", \\\"input_bams\\\": [{\\\"__index__\\\": 0, \\\"input_bam\\\": null}], \\\"__current_case__\\\": 1}\"}", 
+            "tool_version": "2.0", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "f23c2fc5-c990-48f8-843d-c019a34c5285"
+        }, 
+        "4": {
+            "annotation": "", 
+            "id": 4, 
+            "input_connections": {
+                "input_file": {
+                    "id": 3, 
+                    "output_name": "output_mpileup"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Pileup to VCF", 
+            "outputs": [
+                {
+                    "name": "output_file", 
+                    "type": "vcf"
+                }
+            ], 
+            "position": {
+                "left": 766.5, 
+                "top": 418
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/jjohnson/pileup_to_vcf/pileup_to_vcf/2.2", 
+            "tool_state": "{\"snps_only\": \"\\\"False\\\"\", \"min_cvrg\": \"\\\"5\\\"\", \"allow_multiples\": \"\\\"False\\\"\", \"input_file\": \"null\", \"__page__\": 0, \"vcf_id\": \"\\\"\\\"\", \"__rerun_remap_job_id__\": null, \"cols\": \"{\\\"select_order\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"depth_as\": \"\\\"ref\\\"\", \"min_base_qual\": \"\\\"20\\\"\", \"min_var_pct\": \"\\\"0.5\\\"\"}", 
+            "tool_version": "2.2", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "854732f6-7c92-474e-a63b-2e002c76a6d5"
+        }
+    }, 
+    "uuid": "022de0dd-d524-40b6-927a-1a9102560d85"
+}

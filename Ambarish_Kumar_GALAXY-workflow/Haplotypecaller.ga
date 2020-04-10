@@ -1,0 +1,101 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "Haplotypecaller workflow.", 
+    "format-version": "0.1", 
+    "name": "Haplotypecaller", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Input Dataset"
+                }
+            ], 
+            "label": null, 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 198, 
+                "top": 208.1666717529297
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Input Dataset\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": [], 
+            "uuid": "b9fb671f-f07f-498c-8c85-619987501313"
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {
+                "analysis_type|cond_bam_input|input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "GATK", 
+            "outputs": [
+                {
+                    "name": "rtc_output_intervals", 
+                    "type": "gatk_interval"
+                }, 
+                {
+                    "name": "ir_output_bam", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "br_table", 
+                    "type": "tabular"
+                }, 
+                {
+                    "name": "ac_plotsReportFile", 
+                    "type": "pdf"
+                }, 
+                {
+                    "name": "pr_output_bam", 
+                    "type": "bam"
+                }, 
+                {
+                    "name": "hc_output_gvcf", 
+                    "type": "vcf"
+                }, 
+                {
+                    "name": "gg_output_gvcf", 
+                    "type": "vcf"
+                }, 
+                {
+                    "name": "cg_output_vcf", 
+                    "type": "vcf"
+                }, 
+                {
+                    "name": "cv_output_vcf", 
+                    "type": "vcf"
+                }, 
+                {
+                    "name": "output_log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 484.83331298828125, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/avowinkel/gatk/gatk/3.4-0.d9", 
+            "tool_state": "{\"__page__\": 0, \"cond_threads\": \"{\\\"cond_threads_enabled\\\": \\\"False\\\", \\\"__current_case__\\\": 1}\", \"ref_file\": \"{\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": \\\"\\\"}\", \"__rerun_remap_job_id__\": null, \"cond_BQSR\": \"{\\\"cond_BQSR_enabled\\\": \\\"False\\\", \\\"__current_case__\\\": 1}\", \"analysis_type\": \"{\\\"analysis_type_selector\\\": \\\"HaplotypeCaller\\\", \\\"cond_usage\\\": {\\\"emitRefConfidence\\\": \\\"GVCF\\\", \\\"__current_case__\\\": 0, \\\"cond_usage_selector\\\": \\\"GVCF\\\"}, \\\"optional_parameters\\\": {\\\"optional_parameters_enabled\\\": \\\"False\\\", \\\"__current_case__\\\": 1}, \\\"cond_bam_input\\\": {\\\"input\\\": null, \\\"all_in_one\\\": \\\"False\\\", \\\"__current_case__\\\": 1}, \\\"__current_case__\\\": 5}\", \"cond_intervals\": \"{\\\"cond_intervals_enabled\\\": \\\"False\\\", \\\"__current_case__\\\": 1}\"}", 
+            "tool_version": "3.4-0.d9", 
+            "type": "tool", 
+            "user_outputs": [], 
+            "uuid": "5988799c-5658-4475-89ee-86f267cfbee1"
+        }
+    }, 
+    "uuid": "e4f99de3-d6b0-4554-9562-60b2b0eed2d3"
+}
