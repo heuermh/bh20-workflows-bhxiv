@@ -7,7 +7,10 @@ SOP for genomic variant discovery using GATK4 is successfully converted to CWL.
 https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_SOP/Ambarish_Kumar_SOP-GATK-SAR-CoV-2.cwl
 
 ###### GATK4 workflow run as CWL tool
-[svg]
+[CWL view of GATK4](https://view.commonwl.org/workflows/github.com/mr-c/2020-covid-19-bh-viz/blob/master/Ambarish_Kumar_SOP/Ambarish_Kumar_SOP-GATK-SAR-CoV-2.cwl)
+![CWL view of GATK4](https://github.com/heuermh/bh20-workflows-bhxiv/blob/master/Ambarish_Kumar_workflows/Ambarish_Kumar_SOP/graph.svg
+)
+
 #### Conversion of SOPs to WDL
 SOP for genomic variant discovery using GATK4 is successfully converted to WDL.
 https://github.com/common-workflow-lab/2020-covid-19-bh/blob/master/Ambarish_Kumar_SOP/GATK4.wdl
