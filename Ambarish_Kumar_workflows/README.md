@@ -94,7 +94,7 @@ Four real sequenced illumina RNASEQ reads were involved into the study. List and
 
 [COVID-19 biohackathon](https://github.com/common-workflow-lab/2020-covid-19-bh)
 
-[COVId-19 galaxy](Ambarish Kumar + Bjoern Gruening)
+[COVId-19 2020 biohackathon galaxy - Ambarish Kumar + Bjoern Gruening](https://github.com/bgruening/bh20-workflows-bhxiv/tree/master/galaxy)
 
 
 ### Credits
