@@ -1,8 +1,13 @@
 ---
 title: 'Workflow topic group title TBD'
 tags:
-  - Tag 1
-  - Tag 2
+  - Covid-19
+  - Workflows
+  - Common Workflow Language (CWL)
+  - Workflow Description Language (WDL)
+  - Galaxy
+  - Snakemake
+  - Nextflow
 authors:
   - name: Michael Heuer
     orcid: 0000-0002-9052-6000
@@ -59,6 +64,9 @@ affiliations:
 
 date: 11 April 2020
 bibliography: paper.bib
+event: Covid-19 Virtual BioHackathon 2020
+group: Workflows topic group
+authors_short: Michael Heuer & Michael R. Cursoe \emph{et al.}
 ---
 
 # Introduction
