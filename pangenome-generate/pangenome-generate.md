@@ -19,7 +19,7 @@ minimap2 is a PAF file, which describes pairwise overlaps between the input sequ
 into a graph representation. It does this by collapsing shared regions between the genomes to 
 common sequence while preserving variants between sequences as "bubbles" within the graph. The
 details of the algorithm for doing so in a memory- and CPU-efficient manner are described on the
-[seqwish GitHub page](https://github/ekg/seqwish).
+[seqwish GitHub page](https://github.com/ekg/seqwish).
 
 Seqwish outputs a graph in GFA format. The next step in the workflow uses [odgi](https://github.com/vgteam/odgi) to convert the
 graph to a succinct, indexed format that can be queried. It then builds a simple visualization of
