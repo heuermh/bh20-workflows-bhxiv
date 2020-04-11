@@ -31,6 +31,9 @@ authors:
   - name: Michael R. Crusoe
     orcid: 0000-0002-2961-9670
     affiliation: 2, 4
+  - name: Rutger A. Vos
+    orcid: 0000-0001-9254-7318
+    affiliation: 9, 10
     
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
@@ -39,7 +42,7 @@ affiliations:
     index: 2
   - name: Institute of Health Carlos III, Majadahonda, Spain.
     index: 3
-  - name: Vrije Universiteit, Amsterdam, The Netheralands
+  - name: Vrije Universiteit, Amsterdam, The Netherlands
     index: 4
   - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
     index: 5
@@ -49,6 +52,10 @@ affiliations:
     index: 7
   - name: School of Computational and Integrative Sciences (SC&IS), Jawaharlal Nehru University, New Delhi, India
     index: 8
+  - name: Naturalis Biodiversity Center, Leiden, The Netherlands
+    index: 9
+  - name: Institute of Biology Leiden, Leiden University, The Netherlands
+    index: 10
 
 date: 11 April 2020
 bibliography: paper.bib
