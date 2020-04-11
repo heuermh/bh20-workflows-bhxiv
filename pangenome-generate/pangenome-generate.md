@@ -28,7 +28,7 @@ API, meaning it is compatible with a number of pangenome-oriented tools.
 
 ### Many hands, many languages
 The workflow group packaged the pangenome construction workflow into three common workflow languages:
-CWL, NextFlow, and WDL. All of these provide interfaces to run locally as well as in the cloud and
+CWL, Galaxy, NextFlow, and WDL. All of these provide interfaces to run locally as well as in the cloud and
 use Docker for environment management. By having the same workflow in three workflow languages, we
 have both provided a pangenome construction resource to multiple communities and facilitating language
 learning.
