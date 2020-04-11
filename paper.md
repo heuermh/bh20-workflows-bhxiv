@@ -15,7 +15,7 @@ authors:
     affiliation: 3
   - name: Sarai Varona
     orcid: 0000-0002-2245-210X
-    affiliation: 4
+    affiliation: 3
   - name: Pjotr Prins
     orcid: 0000-0002-8021-9162
     affiliation: 5
@@ -28,7 +28,9 @@ authors:
   - name: Ambarish Kumar
     orcid: 0000-0002-4923-046X 
     affiliation: 8
-    
+  - name: Michael R. Crusoe
+    orcid: 0000-0002-2961-9670
+    affiliation: 2, 4
     
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
@@ -37,7 +39,7 @@ affiliations:
     index: 2
   - name: Institute of Health Carlos III, Majadahonda, Spain.
     index: 3
-  - name : Institute of Health Carlos III, Majadahonda, Spain.
+  - name: Vrije Universiteit, Amsterdam, The Netheralands
     index: 4
   - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
     index: 5
