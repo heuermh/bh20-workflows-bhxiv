@@ -25,6 +25,10 @@ authors:
   - name: François Moreews
     orcid: 0000-0002-4168-4459
     affiliation: 7
+  - name: Ambarish Kumar
+    orcid: 0000-0002-4923-046X 
+    affiliation: 8
+    
     
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
@@ -41,7 +45,8 @@ affiliations:
     index: 6   
   - name: INRAE, French National Institute for Agriculture, Food and Environment, Rennes, France
     index: 7
-  
+  - name: School of Computational and Integrative Sciences (SC&IS), Jawaharlal Nehru University, New Delhi, India
+    index: 8
 
 date: 11 April 2020
 bibliography: paper.bib
