@@ -31,7 +31,7 @@ authors:
     orcid: 0000-0002-4168-4459
     affiliation: 7
   - name: Ambarish Kumar
-    orcid: 0000-0002-4923-046X 
+    orcid: 0000-0002-4923-046X
     affiliation: 8
   - name: Michael R. Crusoe
     orcid: 0000-0002-2961-9670
@@ -39,7 +39,10 @@ authors:
   - name: Rutger A. Vos
     orcid: 0000-0001-9254-7318
     affiliation: 9, 10
-    
+  - name: Tazro Otha
+    orcid: 0000
+    affiliation: 11
+
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
     index: 1
@@ -51,8 +54,8 @@ affiliations:
     index: 4
   - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
     index: 5
-  - name : Center for Genomic Regulation, Barcelona, Spain. 
-    index: 6   
+  - name : Center for Genomic Regulation, Barcelona, Spain.
+    index: 6
   - name: INRAE, French National Institute for Agriculture, Food and Environment, Rennes, France
     index: 7
   - name: School of Computational and Integrative Sciences (SC&IS), Jawaharlal Nehru University, New Delhi, India
@@ -101,7 +104,12 @@ working group on ... yeah Workflows!
 
 ## Collaboration with other BioHackathon 2020 topic groups
 
-...
+With the public sequence resource group of the COVID-19 BioHackathon
+we collaborated by adding CWL workflows to their pipelines, e.g.  to
+convert FASTQ to FASTA and on to GFA. These workflows were converted
+from existing WDL and NextFlow pipelines. New workflows were also
+developed in this collaboration, such as conversion from GFA to RDF
+where input metadata got merged with that of the GFA graph.
 
 # Discussion
 
