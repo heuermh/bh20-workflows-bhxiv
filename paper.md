@@ -42,6 +42,9 @@ authors:
   - name: Tazro Otha
     orcid: 0000
     affiliation: 11
+  - name: Maxime U. Garcia
+    orcid: 0000-0003-2827-9261
+    affiliation: 12
 
 affiliations:
   - name: RISE Lab, University of California Berkeley, Berkeley, CA, USA.
@@ -64,6 +67,8 @@ affiliations:
     index: 9
   - name: Institute of Biology Leiden, Leiden University, The Netherlands
     index: 10
+  - name: Department of Oncology-Pathology, Karolinska Institutet
+    index: 11
 
 date: 11 April 2020
 bibliography: paper.bib
