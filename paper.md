@@ -121,7 +121,7 @@ where input metadata got merged with that of the GFA graph.
 
 # Discussion
 
-All developed worklfows provided automation and reproducibility to analytics performed over SARS-CoV-2 during COVID-19 BioHackathon. We will generte more tools, scripts and workflows using GALAXY, CWL and WDL. All workflows will be part of Workflow-hub. In addition we will go for porting the workflows over high performance computing infrastructure.   
+Developed worklfows provided automation and reproducibility to analytics performed over SARS-CoV-2 during COVID-19 BioHackathon. We will generate more tools, scripts and workflows using GALAXY, CWL and WDL. All workflows will be part of Workflow-hub. In addition we will go for porting the workflows over high performance computing infrastructure.   
 
 Future work...
 
