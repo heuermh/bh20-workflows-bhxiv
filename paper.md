@@ -93,7 +93,7 @@ working group on ... yeah Workflows!
 -->
 
 # Results
-Reproducibility is the felt need of current research trend especially that of Bioinformatics. Workflow addresses that issue. We formed workflows for in-silico analysis of SARS-CoV-2 genome over varios workflow management systems - GALAXY, CWL, WDL, Snakemake and Nextflow.
+Reproducibility is the felt need of current research especially that of Bioinformatics. Workflow addresses that issue. We formed workflows for in-silico analysis of SARS-CoV-2 genome over varios workflow management systems - GALAXY, CWL, WDL, Snakemake and Nextflow.
 
 ## Workflow A
 #### GALAXY workflows
