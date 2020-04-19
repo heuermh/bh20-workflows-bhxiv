@@ -93,9 +93,17 @@ working group on ... yeah Workflows!
 -->
 
 # Results
+Reproducibility is the felt need of current research trend especially that of Bioinformatics. Workflow addresses that issue. We formed workflows for in-silico analysis of SARS-CoV-2 genome over varios workflow management systems - GALAXY, CWL, WDL, Snakemake and Nextflow.
 
 ## Workflow A
-
+#### GALAXY workflows
+Pipelines for upstream and downstream analysis of SARS-CoV-2 RNASEQ data are formed and implemented over GALAXY.
+- Assembly, annotation and differential expression of genes.
+- Genomic variant detection.
+#### WDL worflows
+We formed operating protocol for genomic variant detection using GATK4 and implemented it over WDL and CROMWELL execution engine. 
+#### CWL workflows
+Similarly we implemented the same operating protocol for genomic variant detection using GATK4 over CWL platform. 
 ...
 
 ## Workflow B
@@ -111,8 +119,8 @@ from existing WDL and NextFlow pipelines. New workflows were also
 developed in this collaboration, such as conversion from GFA to RDF
 where input metadata got merged with that of the GFA graph.
 
-# Discussion
-
+# Discussionb
+All developed worklfows provided automation and reproducibility to analytics performed over SARS-CoV-2 during COVID-19 BioHackathon. We will generted more tools, scripts and workflows using GALAXY, CWL and WDL. All workflows will be part of Workflow-hub. In addition we will go for porting the workflows over high performance computing infrastructure.   
 Future work...
 
 # References
