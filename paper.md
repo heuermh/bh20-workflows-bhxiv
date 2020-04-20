@@ -106,6 +106,8 @@ https://usegalaxy.eu/u/ambarishk/w/covid-19-stringtie-assembly-and-annotation
 
 https://usegalaxy.eu/u/ambarishk/w/covid-19-unicycler-assembly-and-annotation
 
+https://usegalaxy.eu/u/bgruening/w/sars-cov-2-vbiohackathon-workflow
+
 - Genomic variant detection.
 
 https://usegalaxy.eu/u/ambarishk/w/covid-19-gatk4
