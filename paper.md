@@ -115,9 +115,11 @@ https://usegalaxy.eu/u/ambarishk/w/covid-19-varscan
 
 #### WDL worflows
 We formed operating protocol for genomic variant detection using GATK4 and implemented it over WDL and CROMWELL execution engine. 
+https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_SOP/GATK4
 
 #### CWL workflows
 Similarly we implemented the same operating protocol for genomic variant detection using GATK4 over CWL platform. 
+https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_SOP/CWL
 ...
 
 ## Workflow B
