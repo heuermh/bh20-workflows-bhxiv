@@ -99,9 +99,23 @@ Reproducibility is the felt need of current research especially that of Bioinfor
 #### GALAXY workflows
 Pipelines for upstream and downstream analysis of SARS-CoV-2 RNASEQ data are formed and implemented over GALAXY.
 - Assembly, annotation and differential expression of genes.
+
+https://usegalaxy.eu/u/ambarishk/w/covid-19-assembly-using-tophat-and-annotation
+
+https://usegalaxy.eu/u/ambarishk/w/covid-19-stringtie-assembly-and-annotation
+
+https://usegalaxy.eu/u/ambarishk/w/covid-19-unicycler-assembly-and-annotation
+
 - Genomic variant detection.
+
+https://usegalaxy.eu/u/ambarishk/w/covid-19-gatk4
+
+https://usegalaxy.eu/u/ambarishk/w/covid-19-varscan
+
+
 #### WDL worflows
 We formed operating protocol for genomic variant detection using GATK4 and implemented it over WDL and CROMWELL execution engine. 
+
 #### CWL workflows
 Similarly we implemented the same operating protocol for genomic variant detection using GATK4 over CWL platform. 
 ...
@@ -121,7 +135,7 @@ where input metadata got merged with that of the GFA graph.
 
 # Discussion
 
-Developed worklfows provided automation and reproducibility to analytics performed over SARS-CoV-2 during COVID-19 BioHackathon. We will generate more tools, scripts and workflows using GALAXY, CWL and WDL. All workflows will be part of Workflow-hub. In addition we will go for porting the workflows over high performance computing infrastructure.   
+Developed worklfows provide automation and reproducibility to analytics performed over SARS-CoV-2 during COVID-19 BioHackathon. We will generate more tools, scripts and workflows using GALAXY, CWL and WDL. All workflows will be part of Workflow-hub. In addition we will go for porting the workflows over high performance computing infrastructure.   
 
 Future work...
 
