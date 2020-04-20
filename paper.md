@@ -126,7 +126,8 @@ Similarly we implemented the same operating protocol for genomic variant detecti
 https://github.com/common-workflow-lab/2020-covid-19-bh/tree/master/Ambarish_Kumar_SOP/CWL
 
 https://view.commonwl.org/workflows/github.com/mr-c/2020-covid-19-bh-viz/blob/master/Ambarish_Kumar_SOP/Ambarish_Kumar_SOP-GATK-SAR-CoV-2.cwl
-[](https://github.com/heuermh/bh20-workflows-bhxiv/blob/master/Ambarish_Kumar_workflows/Ambarish_Kumar_SOP/graph.svg
+
+![CWL workflow graph](https://github.com/heuermh/bh20-workflows-bhxiv/blob/master/Ambarish_Kumar_workflows/Ambarish_Kumar_SOP/graph.svg
 )
 
 ...
